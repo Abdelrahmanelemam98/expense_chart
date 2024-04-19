@@ -1,0 +1,78 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.card_chart {
+  margin: 8rem auto;
+  width: 25rem;
+  border: none;
+  .chart-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(10, 79%, 65%);
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
+    .chart_balance {
+      h6 {
+        font-size: 12px;
+        padding-top: 10px;
+        font-weight: 500;
+      }
+      h4 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+
+    .chart_logo {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+        padding: 15px;
+      }
+    }
+  }
+  .chart_content {
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    .chart_inner_content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      .total_balance_month {
+        h6 {
+          font-size: 12px;
+          font-weight: 400;
+        }
+        h4 {
+          font-size: 28px;
+          font-weight: 700;
+        }
+      }
+      .total_amount_last {
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        h6 {
+          font-size: 16px;
+          font-weight: 700;
+        }
+        h5 {
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
